@@ -12,6 +12,66 @@
   padding: 21px 0 93px 0;
   background: url(../../img/GirlBG.jpg) center center/cover no-repeat;
 }
+.promo__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-top: 90px;
+}
+.promo__header {
+  font-size: 42px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  line-height: 42px;
+}
+.promo__subheader {
+  margin-top: 17px;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #ffffff;
+  line-height: 24px;
+}
+.promo__icons {
+  margin-top: 65px;
+  width: 425px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.promo__icon {
+  width: 108px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.promo__icon img {
+  display: block;
+  margin: 0 auto;
+}
+.promo__link {
+  margin-top: 18px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.promo__link a {
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: #ffffff;
+}
 
 .header {
   display: -webkit-box;
@@ -45,22 +105,39 @@
   font-size: 18px;
   font-weight: 700;
   color: #ffffff;
+  text-decoration: none;
 }
 .header__phone:hover {
   color: white;
   text-decoration: none;
 }
+.header__contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
 
 .button {
-  display: block;
   width: 150px;
   height: 30px;
   background-color: red;
   border-radius: 5px;
   border: none;
   font-size: 12px;
-  line-height: 1.2;
   font-weight: 500;
   text-transform: uppercase;
   color: #ffffff;
+}
+.button_main {
+  margin-top: 67px;
+  width: 300px;
+  height: 50px;
+  font-size: 16px;
 }/*# sourceMappingURL=style.css.map */
