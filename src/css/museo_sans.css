@@ -29,6 +29,7 @@
 		url('../fonts/museosanscyrl-100italic.ttf') format('truetype'), /* Safari, Android, iOS */
 		url('../fonts/museosanscyrl-100italic.svg#museosanscyrl-100italic') format('svg'); /* Chrome < 4, Legacy iOS */
 		font-weight: 100;
+		font-style: italic;
 }
 
 @font-face {
@@ -51,6 +52,7 @@
 		url('../fonts/museosanscyrl-300italic.ttf') format('truetype'), /* Safari, Android, iOS */
 		url('../fonts/museosanscyrl-300italic.svg#museosanscyrl-300italic') format('svg'); /* Chrome < 4, Legacy iOS */
 		font-weight: 300;
+		font-style: italic;
 }
 
 @font-face {
@@ -62,6 +64,7 @@
 		url('../fonts/museosanscyrl-500italic.ttf') format('truetype'), /* Safari, Android, iOS */
 		url('../fonts/museosanscyrl-500italic.svg#museosanscyrl-500italic') format('svg'); /* Chrome < 4, Legacy iOS */
 		font-weight: 500;
+		font-style: italic;
 }
 
 @font-face {
@@ -84,6 +87,7 @@
 		url('../fonts/museosanscyrl-700italic.ttf') format('truetype'), /* Safari, Android, iOS */
 		url('../fonts/museosanscyrl-700italic.svg#museosanscyrl-700italic') format('svg'); /* Chrome < 4, Legacy iOS */
 		font-weight: 700;
+		font-style: italic;
 }
 
 @font-face {
@@ -106,5 +110,6 @@
 		url('../fonts/museosanscyrl-900italic.ttf') format('truetype'), /* Safari, Android, iOS */
 		url('../fonts/museosanscyrl-900italic.svg#museosanscyrl-900italic') format('svg'); /* Chrome < 4, Legacy iOS */
 		font-weight: 900;
+		font-style: italic;
 }
 
