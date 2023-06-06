@@ -19,8 +19,18 @@
             margin-top: 50px;
         }
     }
-
+    .carusel{
+        &__inner{
+            height: 500px;
+        }
+        .slick-prev{
+            top:37%;
+        }
+        .slick-next{
+            top:37%;
+        }
     }
+}
 @media (max-width: 991px){
     .promo{
         padding: 23px 0 30px 0;
@@ -56,6 +66,10 @@
         &__descr{
             margin-top: 50px;
         }
+    }
+
+    .carusel{
+        padding: 30px 0;
     }
 }
 
@@ -114,7 +128,28 @@
         &__descr{
             font-size: 11px;
         }
-}
+    }
+    .carusel{
+        &__inner{
+            max-width: 450px;
+            max-height: 400px;
+        }
+        .slick-prev{
+            top:37%;
+        }
+        .slick-next{
+            top:37%;
+        }
+    }
+    .catalog{
+        &__tabs{
+            margin-top: 40px;
+        }
+        &__tab{
+            width: 160px;
+            font-size: 16px;
+        }
+    }
 }
 
 @media (max-width: 575px){
@@ -195,42 +230,68 @@
         &__descr{
             font-size: 11px;
         }
-}
-.consultation{
-    padding-top: 30px;
-    padding-bottom: 0px;
-    min-height: 500px;
-    &__header{
+    }
+    .consultation{
+        padding-top: 30px;
+        padding-bottom: 0px;
+        min-height: 500px;
+        &__header{
         width: 100%;
         font-size: 20px;
-        br{
+            br{
             display: none;
+            }
         }
-    }
-    &__descr{
+        &__descr{
         margin-top: 25px;
         font-size: 13px;
-        br{
+            br{
             display: none;
+            }
         }
     }
-}
 
-.button{
-    margin-top: 10px;
-    &__main{
-        display: none;
+    .button{
+        margin-top: 10px;
+        &__main{
+            display: none;
+        }
+        &__submit{
+            margin: 0 auto;
+            height: 40px;
+            width: 150px;
+            font-size: 10px;
+        }
     }
-    &__submit{
-        height: 40px;
-        width: 150px;
-        font-size: 10px;
+    .feed-form{
+        input{
+            height: 40px;
+        }
     }
-}
-.feed-form{
-    input{
-        height: 40px;
-    }
-}
 
+    .carusel{
+        &__inner{
+            max-width: 450px;
+            max-height: 300px;
+        }
+        .slick-prev{
+            top:37%;
+        }
+        .slick-next{
+            top:37%;
+        }
+    }
+
+    .catalog{
+        .title{
+            font-size: 23px;
+        }
+        &__tabs{
+            margin-top: 30px;
+        }
+        &__tab{
+            width: 160px;
+            font-size: 10px;
+        }
+    }
 }
