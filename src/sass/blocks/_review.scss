@@ -1,0 +1,44 @@
+@import '../base/media';
+.review{
+    min-height: 1050px;
+    padding-bottom: 71px;
+    &__header{
+        font-size: 30px;
+        line-height: 1.2;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #0d0d0d;
+        text-align: center;
+    }
+    &__cards{
+        display: flex;
+        flex-direction: column;
+        .review__card:first-child{
+            margin-top: 70px;
+        }
+    }
+    &__card{
+        margin-top: 102px;
+        display: flex;
+        gap: 60px;
+    }
+    &__name{
+        font-size: 18px;
+        line-height: 1.2;
+        font-weight: 700;
+        color: #0d0d0d;
+    }
+    &__runs{
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 300;
+        color: #646464;
+    }
+    &__personDescr{
+        font-size: 16px;
+        line-height: 1.2;
+        font-weight: 300;
+        color: #0d0d0d;
+    }
+
+}
