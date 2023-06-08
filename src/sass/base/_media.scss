@@ -309,6 +309,10 @@
         input{
             height: 40px;
         }
+        &_mt25{
+            width: 230px;
+            
+        }
     }
 
     .carusel{
@@ -334,6 +338,26 @@
         &__tab{
             width: 160px;
             font-size: 10px;
+        }
+    }
+    .modal{
+        width: 280px;
+        min-height: 300px;
+        padding: 18px 20px 20px 20px;
+        &__close{
+            right: -30px;
+            font-size: 35px;
+            line-height: 17px;
+        }
+        &__subtitle{
+            font-size: 15px;
+        }
+        &__descr{
+            font-size: 11px;
+        }
+        &_min{
+            min-height: 140px;
+            padding: 38px 80px 43px 80px;
         }
     }
 }
