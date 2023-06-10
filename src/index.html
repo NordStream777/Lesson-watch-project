@@ -7,11 +7,12 @@
     <title>Pulse</title>
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="stylesheet" href="css/museo_sans.css">
 </head>
 <body>
-<section class="promo">
+<section id="up" class="promo">
     <div class="container">
         <header class="header">
             <a href="#" class="header__logo">
@@ -63,7 +64,7 @@
                 так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!</p>
             </div>
             <div class="advantage__descr">
-                <img src="icons/heart.png" alt="heart">
+                <img class="advantage__img" src="icons/heart.png" alt="heart">
                 <h2>Заботимся о здоровье</h2>
                 <p>Мы работаем для того, <br>
                 чтобы Ваши занятия спортом шли на <br> пользу Вашему здоровью и были в <br> радость Вам и Вашим близким!</p>
@@ -92,7 +93,7 @@
 
         <form id="consultation-form" action="#" class="feed-form">
             <input name="name" required placeholder="Ваше имя" type="text">
-            <input name="tel" required placeholder="Ваш телефон" type="number">
+            <input name="phone" required placeholder="Ваш телефон">
             <input name="email" required placeholder=" Ваш E-mail" type="email">
             <button data-modal="thanks" class="button button__submit">ЗАКАЗАТЬ КОНСУЛЬТАЦИЮ</button>
         </form>
@@ -374,7 +375,7 @@
     <div class="container">
         <h1 class="review__header">отзывы клиентов</h1>
         <div class="review__cards">
-            <div class="review__card">
+            <div class="review__card fadeInUp wow" data-wow-duration="2s" data-wow-delay="2s">
                 <div class="review__img">
                     <img src="icons/first_winner_around.png" alt="firstWinner">
                 </div>
@@ -387,7 +388,7 @@
 
                 </div>
             </div>
-            <div class="review__card">
+            <div class="review__card fadeInUp wow" data-wow-duration="2s" data-wow-delay="2s">
                 <div class="review__img">
                     <img src="icons/second_winner_around.png" alt="secondWinnner">
                 </div>
@@ -398,7 +399,7 @@
                     <p class="review__personDescr">С ними подготовился к своему первому полумарафону! Спасибо!!!</p>
                 </div>
             </div>
-            <div class="review__card">
+            <div class="review__card fadeInUp wow" data-wow-duration="2s" data-wow-delay="2s">
                 <div class="review__img">
                     <img src="icons/third_winner_around.png" alt="thirdWinner">
                 </div>
@@ -433,7 +434,7 @@
         <div class="modal__descr">и мы перезвоним вам в течении 10 минут</div>
         <form action="#" class="feed-form feed-form_mt25">
             <input name="name" required placeholder="Ваше имя" type="text">
-            <input name="tel" required placeholder="Ваш телефон" type="number">
+            <input name="phone" required placeholder="Ваш телефон">
             <input name="email" required placeholder=" Ваш E-mail" type="email">
             <button class="button button__submit">ЗАКАЗАТЬ КОНСУЛЬТАЦИЮ</button>
         </form>
@@ -445,7 +446,7 @@
         <div class="modal__descr">Пульсометр Polar FT1</div>
         <form action="#" class="feed-form feed-form_mt25">
             <input name="name"  placeholder="Ваше имя" type="text">
-            <input name="tel"  placeholder="Ваш телефон" type="number">
+            <input name="phone"  placeholder="Ваш телефон">
             <input name="email"  placeholder=" Ваш E-mail" type="email">
             <button class="button button__submit">Купить</button>
         </form>
@@ -458,10 +459,16 @@
     </div>
 </div>
 
+<a href="#up" class="pageup">
+    <img src="icons/circle-chevron-up-solid.svg" alt="icon">
+</a>
+
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
